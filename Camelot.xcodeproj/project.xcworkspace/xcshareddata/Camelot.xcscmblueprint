@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "664A8BB86FAB9B1B6B341BE9D90CFB6285DA45D7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : 9223372036854775807,
+    "664A8BB86FAB9B1B6B341BE9D90CFB6285DA45D7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0528C4D6-EC87-4422-B9CF-E18BF1C1DC88",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9CF6181E3789E3853840089C16D4B9FDDB9B31E2" : "Camelot\/ResearchKit\/",
+    "664A8BB86FAB9B1B6B341BE9D90CFB6285DA45D7" : "Camelot\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Camelot",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Camelot.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Progdrasil\/research-kit-tutorial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "664A8BB86FAB9B1B6B341BE9D90CFB6285DA45D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ResearchKit\/ResearchKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9CF6181E3789E3853840089C16D4B9FDDB9B31E2"
+    }
+  ]
+}
