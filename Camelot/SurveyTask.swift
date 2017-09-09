@@ -53,8 +53,11 @@ public var SurveyTask: ORKOrderedTask {
     let colorQuestionStep = ORKQuestionStep(identifier: "ImageChoiceQuestionStep", title: colorQuestionStepTitle, answer: colorAnswerFormat)
     steps += [colorQuestionStep]
     
-    //TODO: add summary step
-    
+    // add summary step
+    let summaryStep = ORKCompletionStep(identifier: "SummaryStep")
+    summaryStep.title = "Right, Off you go!"
+    summaryStep.text = "That was easy!"
+    steps += [summaryStep]
     
     return ORKOrderedTask(identifier: "SurveyTask", steps: steps)
 }
