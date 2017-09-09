@@ -18,8 +18,12 @@ public var SurveyTask: ORKOrderedTask {
     instructionStep.text = "Who would cross the Bridge of Death must answer me these questions three, ere the other side they see."
     steps += [instructionStep]
     
-    //TODO: add name question
-    
+    // add name question
+    let nameAnswerFormat = ORKTextAnswerFormat(maximumLength: 20)
+    nameAnswerFormat.multipleLines = false
+    let nameQuestionStepTitle = "What, is your name?"
+    let nameQuestionStep = ORKQuestionStep(identifier: "QuestionStep", title: nameQuestionStep, answer: nameAnswerFormat)
+    steps += [nameQuestionStep]
     
     //TODO: Add quest question
     
