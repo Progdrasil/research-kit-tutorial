@@ -22,11 +22,19 @@ public var SurveyTask: ORKOrderedTask {
     let nameAnswerFormat = ORKTextAnswerFormat(maximumLength: 20)
     nameAnswerFormat.multipleLines = false
     let nameQuestionStepTitle = "What, is your name?"
-    let nameQuestionStep = ORKQuestionStep(identifier: "QuestionStep", title: nameQuestionStep, answer: nameAnswerFormat)
+    let nameQuestionStep = ORKQuestionStep(identifier: "QuestionStep", title: nameQuestionStepTitle, answer: nameAnswerFormat)
     steps += [nameQuestionStep]
     
-    //TODO: Add quest question
-    
+    // Add quest question
+    let questQuestionStepTitle = "What, is your quest?"
+    let textChoices = [
+        ORKTextChoice(text: "Create a ResearchKit App", value: 0 as NSCoding & NSCopying & NSObjectProtocol),
+        ORKTextChoice(text: "Seek the Holy Grail", value: 1 as NSCoding & NSCopying & NSObjectProtocol),
+        ORKTextChoice(text: "Find a shrubbery", value: 2 as NSCoding & NSCopying & NSObjectProtocol)
+    ]
+    let questAnswerFormat: ORKTextChoiceAnswerFormat = ORKAnswerFormat.choiceAnswerFormat(with: ORKChoiceAnswerStyle.singleChoice, textChoices: textChoices)
+    let questQuestionStep = ORKQuestionStep(identifier: "TextChoiceQuestionStep", title: questQuestionStepTitle, answer: questAnswerFormat)
+    steps += [questQuestionStep]
     
     //TODO: add color question
     
