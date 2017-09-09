@@ -16,6 +16,7 @@
 		A78B042B1F63649400AED44A /* ResearchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A78B04271F63645900AED44A /* ResearchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A78B04301F638D9300AED44A /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78B042F1F638D9300AED44A /* ConsentDocument.swift */; };
 		A78B04321F63927B00AED44A /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78B04311F63927B00AED44A /* ConsentTask.swift */; };
+		A78B04341F64293900AED44A /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78B04331F64293900AED44A /* SurveyTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		A78B04201F63645900AED44A /* ResearchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ResearchKit.xcodeproj; path = ResearchKit/ResearchKit.xcodeproj; sourceTree = "<group>"; };
 		A78B042F1F638D9300AED44A /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
 		A78B04311F63927B00AED44A /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		A78B04331F64293900AED44A /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				A78B042F1F638D9300AED44A /* ConsentDocument.swift */,
 				A78B04311F63927B00AED44A /* ConsentTask.swift */,
 				A74BF0591F635990006A3FD7 /* Main.storyboard */,
+				A78B04331F64293900AED44A /* SurveyTask.swift */,
 				A74BF05C1F635990006A3FD7 /* Assets.xcassets */,
 				A74BF05E1F635990006A3FD7 /* LaunchScreen.storyboard */,
 				A74BF0611F635990006A3FD7 /* Info.plist */,
@@ -221,6 +224,7 @@
 			files = (
 				A74BF0581F635990006A3FD7 /* ViewController.swift in Sources */,
 				A78B04321F63927B00AED44A /* ConsentTask.swift in Sources */,
+				A78B04341F64293900AED44A /* SurveyTask.swift in Sources */,
 				A78B04301F638D9300AED44A /* ConsentDocument.swift in Sources */,
 				A74BF0561F635990006A3FD7 /* AppDelegate.swift in Sources */,
 			);
