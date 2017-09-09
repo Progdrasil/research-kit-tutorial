@@ -36,8 +36,22 @@ public var SurveyTask: ORKOrderedTask {
     let questQuestionStep = ORKQuestionStep(identifier: "TextChoiceQuestionStep", title: questQuestionStepTitle, answer: questAnswerFormat)
     steps += [questQuestionStep]
     
-    //TODO: add color question
-    
+    // add color question
+    let colorQuestionStepTitle = "What, is your favorite color?"
+    let colorTuples = [
+        (UIImage(named: "red")!, "Red"),
+        (UIImage(named: "orange")!, "Orange"),
+        (UIImage(named: "yellow")!, "Yellow"),
+        (UIImage(named: "green")!, "Green"),
+        (UIImage(named: "blue")!, "Blue"),
+        (UIImage(named: "purple")!, "Purple")
+    ]
+    let imageChoices : [ORKImageChoice] = colorTuples.map {
+        return ORKImageChoice(normalImage: $0.0, selectedImage: nil, text: $0.1, value: $0.1 as NSCoding & NSCopying & NSObjectProtocol)
+    }
+    let colorAnswerFormat: ORKImageChoiceAnswerFormat = ORKAnswerFormat.choiceAnswerFormat(with: imageChoices)
+    let colorQuestionStep = ORKQuestionStep(identifier: "ImageChoiceQuestionStep", title: colorQuestionStepTitle, answer: colorAnswerFormat)
+    steps += [colorQuestionStep]
     
     //TODO: add summary step
     

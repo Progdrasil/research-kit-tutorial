@@ -17,6 +17,7 @@
 		A78B04301F638D9300AED44A /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78B042F1F638D9300AED44A /* ConsentDocument.swift */; };
 		A78B04321F63927B00AED44A /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78B04311F63927B00AED44A /* ConsentTask.swift */; };
 		A78B04341F64293900AED44A /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78B04331F64293900AED44A /* SurveyTask.swift */; };
+		A78B04361F642ECE00AED44A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78B04351F642ECE00AED44A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		A78B042F1F638D9300AED44A /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
 		A78B04311F63927B00AED44A /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		A78B04331F64293900AED44A /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		A78B04351F642ECE00AED44A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				A74BF05C1F635990006A3FD7 /* Assets.xcassets */,
 				A74BF05E1F635990006A3FD7 /* LaunchScreen.storyboard */,
 				A74BF0611F635990006A3FD7 /* Info.plist */,
+				A78B04351F642ECE00AED44A /* Images.xcassets */,
 			);
 			path = Camelot;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74BF0601F635990006A3FD7 /* LaunchScreen.storyboard in Resources */,
+				A78B04361F642ECE00AED44A /* Images.xcassets in Resources */,
 				A74BF05D1F635990006A3FD7 /* Assets.xcassets in Resources */,
 				A74BF05B1F635990006A3FD7 /* Main.storyboard in Resources */,
 			);
